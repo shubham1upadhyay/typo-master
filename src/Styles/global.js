@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     border : none;
     width : 40px;
     border-radius : 10px;
+    cursor:pointer;
 }
 .bottom-span{
     font-size : 18px;
@@ -55,6 +56,7 @@ div.header {
     display : flex;
     justify-content: space-around;
     margin : 0 auto;
+    cursor:pointer;
 }
 .user{
     width : 50%;
@@ -237,6 +239,7 @@ body{
 .title{
     font-size : 20px;
     color : ${({ theme }) => theme.typeBoxText}}
+    cursor:pointer;
 }
 
 .subtitle{
